@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.livros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.livro {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+}
+
+.livro h2 {
+    color: #333;
+}
+
+.livro p {
+    color: #666;
+}
+
+.livro a {
+    display: block;
+    background-color: #4caf50;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.livro a:hover {
+    background-color: #45a049;
+}
