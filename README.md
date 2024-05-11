@@ -1,1 +1,1 @@
-# universo-liter-rio
+# universo-literario
