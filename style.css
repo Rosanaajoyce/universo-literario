@@ -1,32 +1,62 @@
+/* style.css */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
+}
+
+.resumo-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-    text-align: center;
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+a {
+    color: #007bff;
+}
+
+
+/* style.css */
+.livros {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
     margin-top: 20px;
 }
 
-.livros {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
 .livro {
-    margin: 20px;
+    width: 200px;
+    margin-bottom: 20px;
 }
 
 .livro img {
-    width: 200px; /* Ajuste conforme necessário */
-    height: auto;
+    width: 100%;
     border-radius: 5px;
-    cursor: pointer; /* Transforma o cursor em uma mãozinha quando passa sobre a imagem */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-.livro img:hover {
-    opacity: 0.8; /* Reduz a opacidade da imagem quando passa o mouse sobre ela */
+.livro a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
 }
+
+.livro a:hover {
+    color: #007bff;
+}
+
+
+<link rel="stylesheet" href="style.css">
