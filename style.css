@@ -17,33 +17,16 @@ h1 {
 }
 
 .livro {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 20px;
-    padding: 20px;
-    width: 300px;
 }
 
-.livro h2 {
-    color: #333;
-}
-
-.livro p {
-    color: #666;
-}
-
-.livro a {
-    display: block;
-    background-color: #4caf50;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    padding: 10px 0;
+.livro img {
+    width: 200px; /* Ajuste conforme necessário */
+    height: auto;
     border-radius: 5px;
-    margin-top: 10px;
+    cursor: pointer; /* Transforma o cursor em uma mãozinha quando passa sobre a imagem */
 }
 
-.livro a:hover {
-    background-color: #45a049;
+.livro img:hover {
+    opacity: 0.8; /* Reduz a opacidade da imagem quando passa o mouse sobre ela */
 }
