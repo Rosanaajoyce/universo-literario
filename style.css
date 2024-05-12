@@ -14,11 +14,11 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: #f9f7f7;
 }
 
 p {
-    <span style="color:white">Este texto será branco.</span>
+     color: #404142;
 }
 
 a {
