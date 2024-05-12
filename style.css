@@ -18,7 +18,7 @@ h1 {
 }
 
 p {
-    cor #fff;
+    <span style="color:white">Este texto será branco.</span>
 }
 
 a {
